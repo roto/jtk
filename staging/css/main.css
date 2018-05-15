@@ -2033,7 +2033,7 @@ body {
 
 .primary-btn {
   line-height: 40px;
-  padding: 0 30px;
+  padding: 0 10px;
   border-radius: 20px;
   background: #fff;
   border: 1px solid #eee;
@@ -2062,6 +2062,10 @@ body {
   color: #fff;
 }
 
+.primary-btn img {
+  margin-right: 10px;
+}
+
 .text-color-black {
   color: #222222;
 }
@@ -2076,6 +2080,7 @@ body {
 
 .banner-content {
   color: #fff;
+  text-align: center;
 }
 
 .banner-content h1 {
