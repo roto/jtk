@@ -2080,8 +2080,6 @@ body {
 
 .banner-content h1 {
   color: white;
-  font-size-adjust: inherit;
-  font-size: 300%;
   font-weight: 600;
   text-shadow: black 0.1em 0.1em 0.2em;
   text-align: center;
