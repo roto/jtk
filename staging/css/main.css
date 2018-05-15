@@ -71,7 +71,7 @@ a {
 }
 
 a:hover {
-  color: #f67590 !important;
+  color: #228bb7 !important;
 }
 
 iframe {
@@ -908,25 +908,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .genric-btn.primary {
   color: #fff;
-  background: #f67590;
+  background: #228bb7;
   border: 1px solid transparent;
 }
 
 .genric-btn.primary:hover {
-  color: #f67590;
-  border: 1px solid #f67590;
+  color: #228bb7;
+  border: 1px solid #228bb7;
   background: #fff;
 }
 
 .genric-btn.primary-border {
-  color: #f67590;
-  border: 1px solid #f67590;
+  color: #228bb7;
+  border: 1px solid #228bb7;
   background: #fff;
 }
 
 .genric-btn.primary-border:hover {
   color: #fff !important;
-  background: #f67590;
+  background: #228bb7;
   border: 1px solid transparent;
 }
 
@@ -1062,7 +1062,7 @@ h1, h2, h3, h4, h5, h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #f67590;
+  border-left: 2px solid #228bb7;
 }
 
 .progress-table-wrap {
@@ -1186,7 +1186,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #f67590;
+  border: 3px solid #228bb7;
   background: #fff;
   top: 4px;
   left: 0;
@@ -1199,7 +1199,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #f67590;
+  color: #228bb7;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1212,7 +1212,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #f67590;
+  color: #228bb7;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1225,7 +1225,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #f67590;
+  color: #228bb7;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1297,7 +1297,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #f67590;
+  border: 1px solid #228bb7;
 }
 
 .single-input-accent {
@@ -1358,7 +1358,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #f67590;
+  background: #228bb7;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -1441,7 +1441,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-switch input:checked + label:before {
-  background: #f67590;
+  background: #228bb7;
 }
 
 .confirm-switch {
@@ -1790,12 +1790,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-select .nice-select .list .option.selected {
-  color: #f67590;
+  color: #228bb7;
   background: transparent;
 }
 
 .default-select .nice-select .list .option:hover {
-  color: #f67590;
+  color: #228bb7;
   background: transparent;
 }
 
@@ -1845,12 +1845,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form-select .nice-select .list .option.selected {
-  color: #f67590;
+  color: #228bb7;
   background: transparent;
 }
 
 .form-select .nice-select .list .option:hover {
-  color: #f67590;
+  color: #228bb7;
   background: transparent;
 }
 
@@ -1937,15 +1937,15 @@ nav a:hover {
 
 @media (max-width: 767px) {
   nav a {
-    color: #f67590;
+    color: #228bb7;
   }
   nav a:hover {
-    color: #f67590 !important;
+    color: #228bb7 !important;
   }
 }
 
 body {
-  background: #f67590;
+  background: #228bb7;
 }
 
 .main-wrapper-first {
@@ -2051,7 +2051,7 @@ body {
 }
 
 .primary-btn:hover {
-  background: #f67590;
+  background: #228bb7;
   border: 1px solid #fff;
   color: #fff;
 }
@@ -2277,7 +2277,7 @@ body {
 }
 
 .newsletter-area {
-  background-color: #f67590;
+  background-color: #228bb7;
   color: #fff;
 }
 
@@ -2318,7 +2318,7 @@ body {
 }
 
 .subscription .primary-btn {
-  background: #f67590;
+  background: #228bb7;
   color: #fff;
   position: absolute;
   top: 50%;
