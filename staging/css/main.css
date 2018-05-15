@@ -2087,7 +2087,9 @@ body {
 }
 
 .banner-area {
-  background: #f66483;
+  background-image: url(../img/banner-bg.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .featured-area {
