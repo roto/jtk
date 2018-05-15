@@ -1884,7 +1884,11 @@ h1, h2, h3, h4, h5, h6 {
 .menu-bar span {
   color: white;
   font-size: 24px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow:
+    -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
 }
 
 .main-menubar {
@@ -2077,14 +2081,14 @@ body {
 .banner-content h1 {
   color: white;
   font-weight: 600;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: black 0.1em 0.1em 0.2em;
   text-align: center;
 }
 
 .banner-content p {
   margin-top: 1rem;
-  text-shadow: -1px 0 #228bb7, 0 1px #228bb7, 1px 0 #228bb7, 0 -1px #228bb7;
-  background-color:rgba(34,139,183,0.4);
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background-color:rgba(0,0,0,0.4);
   padding: 10px;
   text-align: justify;
   border-radius: 10px;
