@@ -2103,9 +2103,17 @@ body {
   margin-bottom: 20px;
 }
 
-@media (max-width: 767px) {
-  .banner-content {
-    margin-top: 30px;
+/* smaller screen width */
+@media (max-width: 400px) {
+  .banner-content h1 {
+    font-size: 200%;
+  }
+}
+
+/* smaller screen width */
+@media (max-width: 320px) {
+  .banner-content h1 {
+    font-size: 150%;
   }
 }
 
