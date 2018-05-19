@@ -751,6 +751,11 @@ td, th {
   margin-right: 0;
 }
 
+.row.some-margin {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
 .sample-text-area {
   background: #fff;
   padding: 100px 30px 70px 30px;
@@ -2136,15 +2141,29 @@ body {
 
 .single-feature p {
   margin-top: 1rem;
+  text-align: justify;
 }
 
 .single-feature img {
   border-radius: 2px;
-  height: 100%;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: .5em;
 }
 
-.single-feature .desc {
-  margin-left: 18px;
+@media (min-width: 768px) and (max-width: 1080px) {
+  .single-feature img {
+    float: none;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 1em;
+  }
+}
+
+.single-feature .desc > a {
+  float: right;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
