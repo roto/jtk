@@ -41,7 +41,7 @@
 body {
   color: #777777;
   font-family: sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.5em;
   position: relative;
@@ -132,27 +132,27 @@ h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2, .h2 {
-  font-size: 30px;
+  font-size: 33px;
 }
 
 h3, .h3 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 h4, .h4 {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 h5, .h5 {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 h6, .h6 {
-  font-size: 14px;
+  font-size: 16px;
   color: #222222;
 }
 
@@ -763,7 +763,7 @@ td, th {
 
 .text-heading {
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 26px;
 }
 
 b, i, sup, sub, u, del {
@@ -771,27 +771,27 @@ b, i, sup, sub, u, del {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 33px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -1790,7 +1790,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease 0s;
   line-height: 28px;
   min-height: 28px;
-  font-size: 12px;
+  font-size: 13px;
   padding-left: 20px;
 }
 
@@ -1845,7 +1845,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease 0s;
   line-height: 28px;
   min-height: 28px;
-  font-size: 12px;
+  font-size: 13px;
   padding-left: 45px;
 }
 
@@ -1888,7 +1888,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu-bar span {
   color: white;
-  font-size: 24px;
+  font-size: 26px;
   text-shadow:
     -1px 0 black,
     0 1px black,
@@ -1927,7 +1927,7 @@ nav.hide {
 }
 
 nav a {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   color: white;
@@ -2131,7 +2131,7 @@ body {
 }
 
 .single-feature h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -2193,7 +2193,7 @@ body {
 
 @media (max-width: 1199px) {
   .offer_desc h2 {
-    font-size: 25px !important;
+    font-size: 27px !important;
   }
 }
 
@@ -2242,29 +2242,29 @@ body {
 }
 
 .process-area .lnr {
-  font-size: 28px;
+  font-size: 30px;
   color: #f5204b;
   font-weight: 600;
 }
 
 .process-area h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: .5rem;
 }
 
 .process-area p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   text-align: justify;  
 }
 
 @media (max-width: 1199px) {
   .process-area .lnr {
-    font-size: 18px;
+    font-size: 20px;
   }
   .process-area p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .process-area h2 {
     margin-bottom: 0.1rem;
@@ -2277,7 +2277,7 @@ body {
 }
 
 .about-area h2 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 18px;
 }
@@ -2354,7 +2354,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .subscription .info.valid {
