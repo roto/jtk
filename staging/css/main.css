@@ -2381,8 +2381,7 @@ body {
 }
 
 .footer-area {
-  background: url(../img/f-bg.jpg);
-  background-size: cover;
+  background-color: #f9faff34;
   color: #fff;
   margin-bottom: 90px;
 }
