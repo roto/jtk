@@ -2070,6 +2070,9 @@ body {
 
 .primary-btn img {
   margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  top: 8px;
 }
 
 .text-color-black {
