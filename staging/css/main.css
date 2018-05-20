@@ -2450,7 +2450,7 @@ body {
   margin-bottom: 1ex;
 }
 
-.quantumWizButtonPaperbuttonContent {
+.freebirdFormviewerViewNavigationNavControls button {
   background: #228bb7;
   color: #fff;
   position: absolute;
@@ -2483,19 +2483,6 @@ body {
 }
 
 /* CSS hack to replace the Submit label */
-.exportLabel {
-  display: none;
-}
-
-.quantumWizButtonPaperbuttonContent:before {
-  content: "Gửi";
-}
-
-.quantumWizButtonPaperbuttonContent:after {
-  font-family: 'Linearicons-Free';
-  content: "\e87a";
-}
-
 .newsletter-area div.text-center {
   width: 400px;
 }
