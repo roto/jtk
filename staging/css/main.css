@@ -2162,6 +2162,7 @@ body {
 
 .single-feature .desc > a {
   float: right;
+  display: none; /* TODO: display these */
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
