@@ -1913,6 +1913,7 @@ nav {
   nav {
     margin-right: 0;
     position: absolute;
+    width: 130px;
     right: 0;
     top: 47px;
     text-align: right;
