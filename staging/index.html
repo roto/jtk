@@ -287,13 +287,13 @@
 								document.getElementsByClassName("freebirdFormviewerViewHeaderRequiredLegend")[0].remove();
 								document.getElementsByClassName("freebirdFormviewerViewItemsItemItemTitleContainer")[0].remove();
 								document.getElementsByClassName("freebirdFormviewerViewNavigationPasswordWarning")[0].remove();
-								document.getElementsByClassName("exportLabel")[0].remove();
+								document.getElementsByClassName("quantumWizTextinputPaperinputPlaceholder")[0].remove();
 								document.getElementsByClassName("freebirdFormviewerViewNavigationNavControls")[0].innerHTML = "<button type='submit'>Gửi <span class='lnr lnr-arrow-right'></span></button>";
 
-								// replace "ss-submit" with the ID of your submit button
+								var title = document.getElementsByClassName("freebirdFormviewerViewHeaderTitle")[0];
+								title.innerHTML = "Đăng ký để được tư vấn!";
 								document.getElementById("mG61Hd").addEventListener("submit", function () {
-									// replace the "It works!" with what you want to appear in the Javascript dialogue
-									alert("It works!");
+									title.innerHTML = "Cảm ơn bạn đã đăng ký thông tin! Chúng tôi sẽ liên lạc với bạn sớm nhất có thể để tư vấn hỗ trợ.";
 								});
 							</script>
 						</div>
