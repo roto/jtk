@@ -2072,7 +2072,8 @@ body {
   margin-right: 10px;
   width: 24px;
   height: 24px;
-  top: 8px;
+  margin-top: 8px;
+  margin-bottom: auto;
 }
 
 .text-color-black {
