@@ -2287,14 +2287,19 @@ body {
   margin-bottom: 18px;
 }
 
+.about-area .container-fluid {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
 .about-left {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .about-right {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 @media (max-width: 768px) {
@@ -2498,3 +2503,15 @@ body {
 }
 
 /* END GOOGLE FORM */
+
+.about-area .img-fluid {
+  margin: 10% 0;
+}
+
+.about-area h1 {
+  position: absolute; 
+  top: 13%; 
+  left: 50%;
+  margin-right: -50%;
+  transform: translateX(-50%);
+}
