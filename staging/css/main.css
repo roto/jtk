@@ -2138,6 +2138,7 @@ body {
 .single-feature h2 {
   font-size: 20px;
   font-weight: 600;
+  text-align: left;
 }
 
 .single-feature a {
