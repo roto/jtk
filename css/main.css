@@ -68,10 +68,19 @@ a {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  color: #228bb7 !important;
 }
 
 a:hover {
-  color: #228bb7 !important;
+  color: #b72268 !important;
+}
+
+.banner-content a {
+  color: #35c2ff !important;
+}
+
+.banner-content a:hover {
+  color: #ff2d8f !important;
 }
 
 iframe {
@@ -1931,7 +1940,7 @@ nav a {
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
-  color: white;
+  color: white !important;
   margin: 0 25px;
   display: inline-block;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -2138,6 +2147,7 @@ body {
 .single-feature h2 {
   font-size: 20px;
   font-weight: 600;
+  text-align: left;
 }
 
 .single-feature a {
@@ -2167,7 +2177,6 @@ body {
 
 .single-feature .desc > a {
   float: right;
-  display: none; /* TODO: display these */
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
@@ -2254,7 +2263,7 @@ body {
 }
 
 .process-area h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: .5rem;
 }
@@ -2288,14 +2297,19 @@ body {
   margin-bottom: 18px;
 }
 
+.about-area .container-fluid {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .about-left {
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .about-right {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (max-width: 768px) {
@@ -2499,3 +2513,35 @@ body {
 }
 
 /* END GOOGLE FORM */
+
+.about-area .img-fluid {
+  margin: 10% 0;
+}
+
+.about-area h1 {
+  position: absolute;
+  top: 18%; 
+  left: 50%;
+  margin-right: -50%;
+  transform: translateX(-50%);
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 200%;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+.single_about ul {
+  margin-top: -0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.single_about ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+}

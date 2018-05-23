@@ -94,6 +94,7 @@ body {
   line-height: 1.5;
   color: #212529;
   background-color: #fff;
+  text-align: justify;
 }
 
 [tabindex="-1"]:focus {
